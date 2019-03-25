@@ -1,1 +1,5 @@
-# via_sms
+INSTALL
+
+1. Copy via_sms folder in your root directory
+2. Edit database connection settings in App/Config.php
+3. Import via_sms.sql dump
