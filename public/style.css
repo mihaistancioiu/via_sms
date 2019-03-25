@@ -1,0 +1,117 @@
+input[type=file], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:disabled {
+    background: #dddddd;
+}
+
+input[type=submit]:disabled:hover{
+    background: #dddddd;
+    cursor: default;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 33%;
+    margin: auto;
+}
+
+div.errors {
+    color: #ff0000;
+    margin: 0;
+    padding: 0 0 10px 0;
+    width: 70%;
+}
+
+div.success {
+    color: #228B22;
+    margin: 0;
+    padding: 0 0 10px 0;
+    width: 70%;
+}
+
+div.list {
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+    border: solid 1px #ccc;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+td.not_exists {
+    border-right: solid 3px #000;
+    background: white;
+    color: red
+}
+
+tr {
+    border-bottom: solid 1px #000;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr.last {
+    border: none  !important;
+    text-align: right
+}
+
+tr.last table{
+    width: 100%;
+    border: none;
+}
+
+tr.last td {
+    padding: 0;
+    margin: 0;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: green;
+    color: white;
+}
